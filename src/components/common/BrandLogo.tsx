@@ -15,11 +15,11 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({ className = '' }) => {
       className={`inline-flex items-center select-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-lg group ${className}`}
       aria-label="BoltHaven Properties Home"
     >
-      {/* Brand Icon Image - Clean standalone logo without text, larger size */}
+      {/* Brand Icon Image - Double size standalone logo */}
       <img
         src={logoImg}
         alt="BoltHaven"
-        className="h-10 sm:h-12 w-auto object-contain flex-shrink-0 transition-transform duration-200 group-hover:scale-105"
+        className="h-20 sm:h-24 w-auto object-contain flex-shrink-0 transition-transform duration-200 group-hover:scale-105"
       />
     </Link>
   );
