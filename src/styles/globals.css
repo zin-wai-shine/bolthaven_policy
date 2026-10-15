@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+  
+  body {
+    background-color: #FFFFFF;
+    color: #111827;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  /* Clean subtle focus for keyboard accessibility without aggressive outlines */
+  :focus-visible {
+    outline: 2px solid #111827;
+    outline-offset: 2px;
+  }
+}
+
+@layer utilities {
+  /* Headline Clamp Sizes */
+  .text-hero {
+    font-size: clamp(2.25rem, 5vw, 3.75rem);
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+  }
+
+  .text-section-title {
+    font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+    line-height: 1.15;
+    letter-spacing: -0.025em;
+  }
+
+  .text-subheading {
+    font-size: clamp(1.125rem, 2vw, 1.35rem);
+    line-height: 1.45;
+  }
+
+  /* Micro-subtle border utilities */
+  .border-subtle {
+    border-color: #E5E7EB;
+  }
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
