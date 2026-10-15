@@ -8,11 +8,11 @@ interface MetaTagsProps {
 
 export const MetaTags: React.FC<MetaTagsProps> = ({
   title,
-  description = 'Project_EA brings property media, content preparation, social publishing, and workflow management together in a streamlined workspace.',
+  description = 'BoltHaven Properties brings property media, content preparation, social publishing, and workflow management together in a streamlined workspace.',
   canonicalPath = '',
 }) => {
   useEffect(() => {
-    const fullTitle = `${title} | Project_EA`;
+    const fullTitle = `${title} | BoltHaven Properties`;
     document.title = fullTitle;
 
     // Update meta description

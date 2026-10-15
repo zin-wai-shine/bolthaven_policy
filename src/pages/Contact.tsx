@@ -12,7 +12,7 @@ export const Contact: React.FC = () => {
         'For agencies and property firms seeking platform access, enterprise onboarding, or partnership inquiries.',
       email: siteConfig.contactEmail,
       icon: <FiMail className="w-5 h-5 text-accent" />,
-      subject: 'Project_EA Platform Inquiry',
+      subject: 'BoltHaven Properties Platform Inquiry',
     },
     {
       title: 'Technical Support & Integrations',
@@ -20,7 +20,7 @@ export const Contact: React.FC = () => {
         'For inquiries regarding developer API staging, third-party platform token authorizations, or operational issues.',
       email: siteConfig.supportEmail,
       icon: <FiHelpCircle className="w-5 h-5 text-accent" />,
-      subject: 'Project_EA Technical Support',
+      subject: 'BoltHaven Properties Technical Support',
     },
     {
       title: 'Privacy & Data Compliance',
@@ -28,7 +28,7 @@ export const Contact: React.FC = () => {
         'For questions regarding our Privacy Policy, data deletion requests, or third-party developer compliance.',
       email: siteConfig.privacyEmail,
       icon: <FiShield className="w-5 h-5 text-accent" />,
-      subject: 'Project_EA Privacy & Compliance Request',
+      subject: 'BoltHaven Properties Privacy & Compliance Request',
     },
   ];
 
@@ -36,7 +36,7 @@ export const Contact: React.FC = () => {
     <>
       <MetaTags
         title="Contact & Support"
-        description="Get in touch with the Project_EA team for product access, technical integrations, or privacy inquiries."
+        description="Get in touch with the BoltHaven Properties team for product access, technical integrations, or privacy inquiries."
       />
 
       {/* Header */}
@@ -53,7 +53,7 @@ export const Contact: React.FC = () => {
               Get in touch.
             </h1>
             <p className="mt-4 text-base sm:text-lg text-textSecondary leading-relaxed">
-              For questions about Project_EA, product access, integrations, or privacy, contact our team directly through our verified operational channels.
+              For questions about BoltHaven Properties, product access, integrations, or privacy, contact our team directly through our verified operational channels.
             </p>
           </div>
         </Container>

@@ -30,7 +30,7 @@ export const Privacy: React.FC = () => {
     <>
       <MetaTags
         title="Privacy Policy"
-        description="Privacy Policy detailing how Project_EA collects, handles, stores, and protects user data and social media OAuth tokens."
+        description="Privacy Policy detailing how BoltHaven Properties collects, handles, stores, and protects user data and social media OAuth tokens."
       />
 
       <div className="bg-bgSecondary border-b border-borderSubtle py-12">
@@ -56,9 +56,9 @@ export const Privacy: React.FC = () => {
             {/* Callout Notice */}
             <div className="p-4 rounded-lg bg-bgSecondary border border-borderSubtle text-xs text-textSecondary leading-normal">
               <strong className="text-textPrimary block mb-1">Scope & Applicability:</strong>
-              This Privacy Policy explains data practices for Project_EA. This public marketing website
+              This Privacy Policy explains data practices for BoltHaven Properties. This public marketing website
               is a static website and collects no personal data or cookies beyond standard, ephemeral
-              hosting server logs. The separate, authenticated Project_EA application processes property
+              hosting server logs. The separate, authenticated BoltHaven Properties application processes property
               content and authorized social media tokens as detailed below.
             </div>
 
@@ -84,7 +84,7 @@ export const Privacy: React.FC = () => {
             <section id="introduction" className="space-y-3 pt-4 border-t border-borderSubtle">
               <h2 className="text-xl font-bold text-textPrimary">1. Introduction</h2>
               <p className="text-textSecondary">
-                Project_EA ("we", "us", or "our") respects your personal data and is committed to
+                BoltHaven Properties ("we", "us", or "our") respects your personal data and is committed to
                 protecting privacy rights. This Privacy Policy informs you how we collect, store,
                 process, and safeguard information when real estate agents, agencies, and businesses
                 interact with our platform and utilize our social media publishing integrations.
@@ -95,7 +95,7 @@ export const Privacy: React.FC = () => {
             <section id="info-we-collect" className="space-y-3 pt-6 border-t border-borderSubtle">
               <h2 className="text-xl font-bold text-textPrimary">2. Information We Collect</h2>
               <p className="text-textSecondary">
-                We only collect data necessary to provide and operate the Project_EA property
+                We only collect data necessary to provide and operate the BoltHaven Properties property
                 management and social publishing tool. We do not sell personal data, do not profile
                 consumers, and do not track users across unrelated websites.
               </p>
@@ -105,7 +105,7 @@ export const Privacy: React.FC = () => {
             <section id="account-contact" className="space-y-3 pt-6 border-t border-borderSubtle">
               <h2 className="text-xl font-bold text-textPrimary">3. Account and Contact Information</h2>
               <p className="text-textSecondary">
-                When you register for Project_EA or submit an inquiry, we collect:
+                When you register for BoltHaven Properties or submit an inquiry, we collect:
               </p>
               <ul className="list-disc pl-5 space-y-1 text-textSecondary text-sm">
                 <li>Agency or business name, registered company details.</li>
@@ -118,7 +118,7 @@ export const Privacy: React.FC = () => {
             <section id="connected-accounts" className="space-y-3 pt-6 border-t border-borderSubtle">
               <h2 className="text-xl font-bold text-textPrimary">4. Connected Social Media Accounts</h2>
               <p className="text-textSecondary">
-                To enable automated publishing, users authorize Project_EA through official OAuth 2.0
+                To enable automated publishing, users authorize BoltHaven Properties through official OAuth 2.0
                 authorization flows provided by third-party platforms (such as TikTok, Instagram, and
                 Facebook).
               </p>
@@ -157,7 +157,7 @@ export const Privacy: React.FC = () => {
               <h2 className="text-xl font-bold text-textPrimary">6. Uploaded Photos and Videos</h2>
               <p className="text-textSecondary">
                 Property photographs, architectural blueprints, and video walkthrough files uploaded
-                to Project_EA are stored securely in cloud object storage solely for formatting,
+                to BoltHaven Properties are stored securely in cloud object storage solely for formatting,
                 previewing, watermarking, and dispatching to your chosen social accounts. We claim no
                 ownership over your media and do not license or train public AI models on your
                 property assets.
@@ -185,7 +185,7 @@ export const Privacy: React.FC = () => {
                 We use the collected information exclusively to:
               </p>
               <ul className="list-disc pl-5 space-y-1 text-textSecondary text-sm">
-                <li>Provide, maintain, and optimize the Project_EA workflow platform.</li>
+                <li>Provide, maintain, and optimize the BoltHaven Properties workflow platform.</li>
                 <li>Execute authorized video and post uploads to designated third-party channels.</li>
                 <li>Maintain agency audit logs and dispatch verification records.</li>
                 <li>Provide technical support and respond to customer service inquiries.</li>
@@ -241,17 +241,17 @@ export const Privacy: React.FC = () => {
             <section id="account-disconnection" className="space-y-3 pt-6 border-t border-borderSubtle">
               <h2 className="text-xl font-bold text-textPrimary">12. Account Disconnection</h2>
               <p className="text-textSecondary">
-                You can disconnect your social media accounts at any time from within your Project_EA
+                You can disconnect your social media accounts at any time from within your BoltHaven Properties
                 workspace settings. Disconnecting an account immediately purges the corresponding OAuth
                 tokens from our active dispatch cache.
               </p>
               <p className="text-textSecondary">
-                You may also revoke Project_EA's access directly through the third-party platform's
+                You may also revoke BoltHaven Properties's access directly through the third-party platform's
                 security settings:
               </p>
               <ul className="list-disc pl-5 space-y-1 text-textSecondary text-sm">
-                <li><strong>TikTok:</strong> Profile &rarr; Settings and Privacy &rarr; Security &rarr; Manage App Permissions &rarr; Revoke Project_EA.</li>
-                <li><strong>Instagram / Facebook:</strong> Settings & Privacy &rarr; Apps and Websites &rarr; Remove Project_EA.</li>
+                <li><strong>TikTok:</strong> Profile &rarr; Settings and Privacy &rarr; Security &rarr; Manage App Permissions &rarr; Revoke BoltHaven Properties.</li>
+                <li><strong>Instagram / Facebook:</strong> Settings & Privacy &rarr; Apps and Websites &rarr; Remove BoltHaven Properties.</li>
               </ul>
             </section>
 
@@ -277,7 +277,7 @@ export const Privacy: React.FC = () => {
             <section id="cookies-analytics" className="space-y-3 pt-6 border-t border-borderSubtle">
               <h2 className="text-xl font-bold text-textPrimary">14. Cookies and Analytics</h2>
               <p className="text-textSecondary">
-                The public website (<code>project-ea.com</code>) does not deploy third-party advertising
+                The public website (<code>bolthavenproperties.com</code>) does not deploy third-party advertising
                 cookies, tracking pixels, or cross-site tracking scripts. Our web hosting servers
                 maintain standard, temporary access logs (IP address, browser user-agent, timestamp)
                 strictly for cybersecurity and denial-of-service mitigation.

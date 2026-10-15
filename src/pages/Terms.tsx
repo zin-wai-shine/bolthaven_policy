@@ -27,7 +27,7 @@ export const Terms: React.FC = () => {
     <>
       <MetaTags
         title="Terms of Service"
-        description="Terms of Service governing the use of Project_EA social publishing and workflow automation platform."
+        description="Terms of Service governing the use of BoltHaven Properties social publishing and workflow automation platform."
       />
 
       <div className="bg-bgSecondary border-b border-borderSubtle py-12">
@@ -54,7 +54,7 @@ export const Terms: React.FC = () => {
             <div className="p-4 rounded-lg bg-bgSecondary border border-borderSubtle text-xs text-textSecondary leading-normal">
               <strong className="text-textPrimary block mb-1">Important Notice:</strong>
               This document represents an editable draft Terms of Service formulated specifically for
-              the Project_EA property publishing platform. Prior to commercial deployment, this
+              the BoltHaven Properties property publishing platform. Prior to commercial deployment, this
               draft should be reviewed and customized with verified legal counsel to reflect the
               operator's exact business entity structure and jurisdictional filings.
             </div>
@@ -83,8 +83,8 @@ export const Terms: React.FC = () => {
               <p className="text-textSecondary">
                 These Terms of Service ("Terms") constitute a legally binding agreement between you
                 (whether an individual property agent, agency administrator, or commercial property
-                business entity, referred to as "User", "you", or "your") and Project_EA
-                ("Project_EA", "we", "us", or "our"), governing your access to and use of our
+                business entity, referred to as "User", "you", or "your") and BoltHaven Properties
+                ("BoltHaven Properties", "we", "us", or "our"), governing your access to and use of our
                 software platform, website, publishing workflows, and associated automation tools
                 (collectively, the "Service").
               </p>
@@ -95,7 +95,7 @@ export const Terms: React.FC = () => {
               <h2 className="text-xl font-bold text-textPrimary">2. Acceptance of Terms</h2>
               <p className="text-textSecondary">
                 By accessing our website, creating an account, connecting authorized third-party
-                social media accounts, or utilizing any functionality of Project_EA, you
+                social media accounts, or utilizing any functionality of BoltHaven Properties, you
                 unconditionally agree to be bound by these Terms and our Privacy Policy. If you are
                 entering into these Terms on behalf of an agency, company, or legal entity, you
                 warrant that you have full legal authority to bind such entity. If you do not agree
@@ -107,7 +107,7 @@ export const Terms: React.FC = () => {
             <section id="description" className="space-y-3 pt-6 border-t border-borderSubtle">
               <h2 className="text-xl font-bold text-textPrimary">3. Description of the Service</h2>
               <p className="text-textSecondary">
-                Project_EA provides a specialized software workspace engineered for real estate
+                BoltHaven Properties provides a specialized software workspace engineered for real estate
                 professionals and property enterprises. The platform allows users to:
               </p>
               <ul className="list-disc pl-5 space-y-1 text-textSecondary text-sm">
@@ -118,7 +118,7 @@ export const Terms: React.FC = () => {
                 <li>Maintain chronological audit logs and dispatch status reports for agency operations.</li>
               </ul>
               <p className="text-textSecondary text-xs">
-                Project_EA is an independent software tool and does not provide property brokerage, escrow, or real estate advisory services.
+                BoltHaven Properties is an independent software tool and does not provide property brokerage, escrow, or real estate advisory services.
               </p>
             </section>
 
@@ -126,13 +126,13 @@ export const Terms: React.FC = () => {
             <section id="account" className="space-y-3 pt-6 border-t border-borderSubtle">
               <h2 className="text-xl font-bold text-textPrimary">4. Account Responsibilities</h2>
               <p className="text-textSecondary">
-                When registered to use Project_EA, you are responsible for maintaining the
+                When registered to use BoltHaven Properties, you are responsible for maintaining the
                 confidentiality of your login credentials and for all activities conducted under your
                 workspace. You agree to:
               </p>
               <ul className="list-disc pl-5 space-y-1 text-textSecondary text-sm">
                 <li>Provide authentic, accurate, and current operational information.</li>
-                <li>Promptly notify Project_EA in the event of any unauthorized credential access or security breach.</li>
+                <li>Promptly notify BoltHaven Properties in the event of any unauthorized credential access or security breach.</li>
                 <li>Ensure that all agency staff members and operators granted workspace seats comply with these Terms.</li>
                 <li>Never share master administrator credentials or automated API access tokens across unauthorized third parties.</li>
               </ul>
@@ -153,7 +153,7 @@ export const Terms: React.FC = () => {
                 <li>Meta Platform Terms and Community Standards</li>
               </ul>
               <p className="text-textSecondary">
-                Project_EA does not control, and assumes no liability for, the availability, uptime,
+                BoltHaven Properties does not control, and assumes no liability for, the availability, uptime,
                 rate limits, API modifications, suspension, or termination of third-party platforms.
                 Third-party platforms reserve the right to revoke developer API access or user OAuth
                 authorizations at their discretion.
@@ -170,8 +170,8 @@ export const Terms: React.FC = () => {
               </p>
               <p className="text-textSecondary">
                 You retain complete ownership and intellectual property rights in your User Content.
-                Project_EA claims no proprietary ownership over your real estate assets. By
-                uploading User Content to the Service, you grant Project_EA a limited, worldwide,
+                BoltHaven Properties claims no proprietary ownership over your real estate assets. By
+                uploading User Content to the Service, you grant BoltHaven Properties a limited, worldwide,
                 non-exclusive, royalty-free license solely to host, process, reformat (e.g., resizing
                 or watermarking), and transmit such content to your designated third-party social
                 accounts in direct accordance with your instructions.
@@ -182,8 +182,8 @@ export const Terms: React.FC = () => {
             <section id="publishing-authorization" className="space-y-3 pt-6 border-t border-borderSubtle">
               <h2 className="text-xl font-bold text-textPrimary">7. Publishing Authorization</h2>
               <p className="text-textSecondary">
-                By configuring a social media channel within Project_EA and scheduling or executing
-                a publishing action, you explicitly authorize Project_EA to transmit your User
+                By configuring a social media channel within BoltHaven Properties and scheduling or executing
+                a publishing action, you explicitly authorize BoltHaven Properties to transmit your User
                 Content and associated metadata to the connected platform on your behalf using the
                 OAuth access tokens you have granted.
               </p>
@@ -205,7 +205,7 @@ export const Terms: React.FC = () => {
                 <li>Transmit content that infringes upon third-party copyrights, architectural rights, or trademarks.</li>
                 <li>Publish content containing malware, spam, harassment, hate speech, or sexually explicit material.</li>
                 <li>Circumvent or attempt to bypass platform rate limiting, security controls, or API quotas.</li>
-                <li>Reverse engineer, decompile, or attempt to extract source code from Project_EA.</li>
+                <li>Reverse engineer, decompile, or attempt to extract source code from BoltHaven Properties.</li>
                 <li>Use the platform for automated bot scraping, unauthorized data harvesting, or denial-of-service attacks.</li>
               </ul>
             </section>
@@ -214,10 +214,10 @@ export const Terms: React.FC = () => {
             <section id="intellectual-property" className="space-y-3 pt-6 border-t border-borderSubtle">
               <h2 className="text-xl font-bold text-textPrimary">9. Intellectual Property</h2>
               <p className="text-textSecondary">
-                The Project_EA platform, code, software architecture, user interfaces, branding,
-                logos, and documentation are the exclusive property of Project_EA and its licensors,
+                The BoltHaven Properties platform, code, software architecture, user interfaces, branding,
+                logos, and documentation are the exclusive property of BoltHaven Properties and its licensors,
                 protected by international copyright, trademark, and intellectual property laws.
-                Nothing in these Terms grants you any right, title, or interest in Project_EA
+                Nothing in these Terms grants you any right, title, or interest in BoltHaven Properties
                 trademarks or proprietary software other than the limited right to use the Service as
                 expressly permitted herein.
               </p>
@@ -230,7 +230,7 @@ export const Terms: React.FC = () => {
                 We make commercially reasonable efforts to ensure the continuous operation and
                 availability of the Service. However, scheduled maintenance, system updates,
                 telecommunication disruptions, or external platform API outages may occasionally
-                result in service interruptions. Project_EA does not guarantee that the Service will
+                result in service interruptions. BoltHaven Properties does not guarantee that the Service will
                 be uninterrupted, error-free, or perpetually available.
               </p>
             </section>
@@ -256,7 +256,7 @@ export const Terms: React.FC = () => {
             <section id="limitation-liability" className="space-y-3 pt-6 border-t border-borderSubtle">
               <h2 className="text-xl font-bold text-textPrimary">12. Limitation of Liability</h2>
               <p className="text-textSecondary">
-                To the maximum extent permitted by applicable law, in no event shall Project_EA, its
+                To the maximum extent permitted by applicable law, in no event shall BoltHaven Properties, its
                 officers, directors, employees, or contractors be liable for any indirect,
                 incidental, special, consequential, or punitive damages, including loss of profits,
                 goodwill, business opportunities, data loss, or work stoppage, arising out of or in
@@ -264,7 +264,7 @@ export const Terms: React.FC = () => {
               </p>
               <p className="text-textSecondary">
                 In no circumstance shall our cumulative aggregate liability exceed the total amounts
-                paid by you to Project_EA during the twelve (12) months preceding the incident giving
+                paid by you to BoltHaven Properties during the twelve (12) months preceding the incident giving
                 rise to liability, or USD $100, whichever is greater.
               </p>
             </section>
@@ -318,7 +318,7 @@ export const Terms: React.FC = () => {
                 please reach out directly to:
               </p>
               <div className="p-4 rounded-lg bg-bgSecondary border border-borderSubtle text-xs space-y-1 font-mono text-textPrimary">
-                <div>Project_EA Legal & Compliance Team</div>
+                <div>BoltHaven Properties Legal & Compliance Team</div>
                 <div>Entity: {siteConfig.companyName}</div>
                 <div>
                   Email:{' '}

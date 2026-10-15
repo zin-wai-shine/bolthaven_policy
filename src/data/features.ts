@@ -50,7 +50,7 @@ export const detailedFeatures: DetailedFeature[] = [
     summary: "Centralized storage and asset sorting for real estate photography, walk-through videos, and floor plans.",
     description: [
       "Real estate marketing requires organizing hundreds of assets per listing: high-resolution interior photos, exterior aerials, short video clips, and architectural specs.",
-      "Project_EA groups media files by listing reference, preserving raw file quality while automatically generating web-optimized previews and vertical video formats for social channels."
+      "BoltHaven Properties groups media files by listing reference, preserving raw file quality while automatically generating web-optimized previews and vertical video formats for social channels."
     ],
     capabilities: [
       "Listing-centric asset tagging & metadata preservation",
@@ -84,7 +84,7 @@ export const detailedFeatures: DetailedFeature[] = [
     summary: "Optimize character counts, hashtags, and layout per social network specification.",
     description: [
       "Each social platform enforces distinct limits and stylistic standards. TikTok favors punchy captions and trending property discovery tags; Instagram supports structured micro-blogging; Facebook favors localized community details.",
-      "Project_EA provides dedicated editing tabs per channel, allowing agents to fine-tune individual captions without duplicating effort."
+      "BoltHaven Properties provides dedicated editing tabs per channel, allowing agents to fine-tune individual captions without duplicating effort."
     ],
     capabilities: [
       "Platform-specific character counters & truncation warnings",
@@ -101,7 +101,7 @@ export const detailedFeatures: DetailedFeature[] = [
     summary: "Maintain distinct authorization scopes and brand identities across multiple agency branches.",
     description: [
       "Real estate agencies frequently manage multiple brand profiles, sub-teams, or regional branch accounts. Isolating credentials and permissions is paramount for security.",
-      "Project_EA isolates social tokens per agency workspace, ensuring agents publish strictly to their assigned accounts with zero credential cross-contamination."
+      "BoltHaven Properties isolates social tokens per agency workspace, ensuring agents publish strictly to their assigned accounts with zero credential cross-contamination."
     ],
     capabilities: [
       "Isolated workspace credentials with strict role scoping",
@@ -151,7 +151,7 @@ export const detailedFeatures: DetailedFeature[] = [
     title: "Workflow Automation",
     summary: "Eliminate repetitive tasks with automated listing-to-post generation rules.",
     description: [
-      "When a new property listing enters your inventory, Project_EA can automatically trigger image asset cropping, assemble standard copy outlines, and place drafts into the review queue.",
+      "When a new property listing enters your inventory, BoltHaven Properties can automatically trigger image asset cropping, assemble standard copy outlines, and place drafts into the review queue.",
       "Automations run reliably in the background, freeing property agents to focus on client relationships and viewings rather than repetitive copy-pasting."
     ],
     capabilities: [

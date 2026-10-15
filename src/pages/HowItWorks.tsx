@@ -15,7 +15,7 @@ export const HowItWorks: React.FC = () => {
       number: '01',
       title: 'Add property media',
       description:
-        'Upload property photo sets, aerial imagery, and short walk-through videos directly into the listing library. Project_EA organizes files by listing reference, preserves original resolutions, and prepares 9:16 vertical video and 1:1 square crop formats ready for social feeds.',
+        'Upload property photo sets, aerial imagery, and short walk-through videos directly into the listing library. BoltHaven Properties organizes files by listing reference, preserves original resolutions, and prepares 9:16 vertical video and 1:1 square crop formats ready for social feeds.',
       details: [
         'Batch upload with automatic listing reference grouping',
         'Automatic 9:16 vertical video scaling and bitrate checks',
@@ -136,7 +136,7 @@ export const HowItWorks: React.FC = () => {
       number: '05',
       title: 'Publish through authorized integrations',
       description:
-        'When the scheduled time arrives or the agent triggers instant push, Project_EA securely uploads media chunks and metadata to the destination platform API, adhering to platform rate limits and video encoding constraints.',
+        'When the scheduled time arrives or the agent triggers instant push, BoltHaven Properties securely uploads media chunks and metadata to the destination platform API, adhering to platform rate limits and video encoding constraints.',
       details: [
         'Secure token exchange with server-side authorization headers',
         'Chunked media upload handling for large 4K / 1080p property videos',
@@ -195,7 +195,7 @@ export const HowItWorks: React.FC = () => {
     <>
       <MetaTags
         title="How It Works — Step-by-Step Publishing Workflow"
-        description="Learn how real estate media moves through Project_EA: from media ingestion and caption structuring to authorized API dispatch and audit logging."
+        description="Learn how real estate media moves through BoltHaven Properties: from media ingestion and caption structuring to authorized API dispatch and audit logging."
       />
 
       {/* Header */}
@@ -271,7 +271,7 @@ export const HowItWorks: React.FC = () => {
               <span>Platform Authorization & Developer Review Disclaimer</span>
             </div>
             <p className="text-xs sm:text-sm text-textSecondary leading-relaxed">
-              Direct social publishing capabilities depend strictly on active platform authorization, correct user OAuth consent, and platform API approval status. Certain third-party developer integrations (including TikTok Content Posting API) undergo scheduled developer verification and staging reviews. Project_EA operates within authorized third-party developer guidelines.
+              Direct social publishing capabilities depend strictly on active platform authorization, correct user OAuth consent, and platform API approval status. Certain third-party developer integrations (including TikTok Content Posting API) undergo scheduled developer verification and staging reviews. BoltHaven Properties operates within authorized third-party developer guidelines.
             </p>
           </div>
         </Container>
@@ -285,7 +285,7 @@ export const HowItWorks: React.FC = () => {
               Ready to explore our features?
             </h2>
             <p className="text-textSecondary text-sm sm:text-base">
-              Explore the detailed technical capabilities built into every module of Project_EA.
+              Explore the detailed technical capabilities built into every module of BoltHaven Properties.
             </p>
             <div className="pt-2">
               <Button to="/features" variant="primary" size="lg" icon={<FiArrowRight className="w-4 h-4" />}>
