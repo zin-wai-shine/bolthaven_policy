@@ -35,9 +35,9 @@ export const Home: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
             {/* Left Column: Headline and Actions */}
             <div className="lg:col-span-5 space-y-6">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-[11px] font-bold uppercase tracking-wider">
-                <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-                Next-Gen Real Estate Publishing
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-borderSubtle text-textPrimary text-xs font-medium shadow-2xs">
+                <span className="w-2 h-2 rounded-full bg-primary" />
+                <span>Next-gen real estate social publishing</span>
               </div>
 
               <h1 className="text-hero font-extrabold tracking-tight text-textPrimary text-balance leading-[1.08]">
@@ -155,8 +155,11 @@ export const Home: React.FC = () => {
         <Container>
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
             <div>
-              <div className="inline-block text-[11px] font-semibold uppercase tracking-wider text-accent mb-2">
-                Structured Operations
+              <div className="mb-2">
+                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary-light/60 border border-primary/20 text-primary text-xs font-medium">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                  Structured operations
+                </span>
               </div>
               <h2 className="text-section-title font-semibold text-textPrimary">
                 From property content to publishing.
@@ -288,9 +291,9 @@ export const Home: React.FC = () => {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[350px] bg-primary/20 blur-[120px] pointer-events-none rounded-full" />
         <Container size="narrow">
           <div className="text-center space-y-6 relative z-10">
-            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-primary border border-primary/30 text-xs font-mono font-semibold">
-              <span className="w-2 h-2 rounded-full bg-primary animate-ping" />
-              API Ready Production Platform
+            <span className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white/10 text-primary border border-primary/30 text-xs font-medium">
+              <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+              Production-ready real estate publishing
             </span>
             <h2 className="text-section-title font-extrabold text-white tracking-tight text-balance">
               Streamline your real estate publishing operations today.

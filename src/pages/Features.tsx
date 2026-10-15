@@ -18,8 +18,11 @@ export const Features: React.FC = () => {
       <section className="pt-12 sm:pt-16 pb-12 bg-bgSecondary border-b border-borderSubtle">
         <Container>
           <div className="max-w-3xl">
-            <div className="inline-block text-[11px] font-semibold uppercase tracking-wider text-accent mb-3">
-              Platform Capabilities
+            <div className="mb-3.5">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary-light/60 border border-primary/20 text-primary text-xs font-medium">
+                <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                Platform capabilities
+              </span>
             </div>
             <h1 className="text-section-title font-bold text-textPrimary tracking-tight">
               Tools for organized content operations.

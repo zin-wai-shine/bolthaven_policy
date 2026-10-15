@@ -25,7 +25,7 @@ export const Footer: React.FC = () => {
 
           {/* Col 2: Platform Links */}
           <div className="space-y-3">
-            <h3 className="text-xs font-semibold uppercase tracking-wider text-textPrimary">
+            <h3 className="text-sm font-semibold text-textPrimary">
               Platform
             </h3>
             <ul className="space-y-2 text-sm">
@@ -66,7 +66,7 @@ export const Footer: React.FC = () => {
 
           {/* Col 3: Legal & Policies */}
           <div className="space-y-3">
-            <h3 className="text-xs font-semibold uppercase tracking-wider text-textPrimary">
+            <h3 className="text-sm font-semibold text-textPrimary">
               Legal & Policies
             </h3>
             <ul className="space-y-2 text-sm">

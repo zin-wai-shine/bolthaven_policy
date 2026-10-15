@@ -97,12 +97,12 @@ export const HeroPreview: React.FC = () => {
         {/* Left Column: Property Media (5 cols) */}
         <div className="sm:col-span-5 p-4 sm:p-5 space-y-3.5 bg-gradient-to-b from-bgSecondary/60 to-bgSecondary/30">
           <div className="flex items-center justify-between text-textSecondary text-[11px]">
-            <span className="font-bold uppercase tracking-wider text-textPrimary flex items-center gap-1.5">
-              <span>Listing Media</span>
-              <span className="text-[10px] bg-primary/10 text-primary px-1.5 py-0.2 rounded-full font-semibold">4 items</span>
+            <span className="font-semibold text-textPrimary flex items-center gap-1.5">
+              <span>Listing media</span>
+              <span className="text-[10px] bg-primary/10 text-primary px-1.5 py-0.2 rounded-full font-medium">4 items</span>
             </span>
             <span className="flex items-center gap-1 text-[11px] font-medium text-textSecondary bg-white border border-borderSubtle px-2 py-0.5 rounded">
-              <FiSliders className="w-3 h-3 text-primary" /> 9:16 Video Auto-Fit
+              <FiSliders className="w-3 h-3 text-primary" /> 9:16 Video auto-fit
             </span>
           </div>
 
@@ -161,8 +161,8 @@ export const HeroPreview: React.FC = () => {
         <div className="sm:col-span-7 p-4 space-y-4 bg-white flex flex-col justify-between">
           <div className="space-y-3">
             <div className="flex items-center justify-between">
-              <span className="text-[11px] font-semibold text-textPrimary uppercase tracking-wider">
-                Post Caption & Tags
+              <span className="text-[11px] font-semibold text-textPrimary">
+                Post caption &amp; hashtags
               </span>
               <span className="text-[10px] font-mono text-textSecondary">
                 184 / 2,200 chars
