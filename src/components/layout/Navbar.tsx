@@ -25,24 +25,24 @@ export const Navbar: React.FC = () => {
   };
 
   return (
-    <header className="sticky top-0 z-40 bg-white border-b border-borderSubtle">
-      <div className="max-w-container mx-auto px-4 sm:px-6 lg:px-8 h-[68px] flex items-center justify-between">
+    <header className="sticky top-0 z-40 bg-white/85 backdrop-blur-md border-b border-borderSubtle transition-all">
+      <div className="max-w-container mx-auto px-4 sm:px-6 lg:px-8 h-[74px] flex items-center justify-between">
         {/* Brand Logo */}
         <div className="flex items-center">
           <BrandLogo />
         </div>
 
         {/* Desktop Navigation Links */}
-        <nav className="hidden md:flex items-center gap-7" aria-label="Main Navigation">
+        <nav className="hidden md:flex items-center gap-1.5 p-1 bg-bgSecondary/80 rounded-full border border-borderSubtle/60" aria-label="Main Navigation">
           {siteConfig.navLinks.map((link) => (
             <NavLink
               key={link.href}
               to={link.href}
               className={({ isActive }) =>
-                `text-sm transition-colors duration-150 py-1.5 ${
+                `text-xs sm:text-[13px] font-medium transition-all duration-150 px-4 py-1.5 rounded-full ${
                   isActive
-                    ? 'text-textPrimary font-semibold'
-                    : 'text-textSecondary hover:text-textPrimary font-normal'
+                    ? 'bg-white text-textPrimary font-semibold shadow-xs border border-borderSubtle/80'
+                    : 'text-textSecondary hover:text-textPrimary hover:bg-white/60'
                 }`
               }
             >
@@ -51,12 +51,13 @@ export const Navbar: React.FC = () => {
           ))}
         </nav>
 
-        {/* Right Action Button - Same text size (text-sm) and normal proportions */}
-        <div className="hidden md:flex items-center">
+        {/* Right Action Button */}
+        <div className="hidden md:flex items-center gap-3">
           <Button
             to="/features"
             variant="primary"
             size="sm"
+            className="shadow-sm shadow-primary/20 hover:shadow-md hover:shadow-primary/30"
             icon={<FiArrowRight className="w-3.5 h-3.5" />}
           >
             Explore Platform

@@ -13,14 +13,13 @@ export const Footer: React.FC = () => {
           {/* Col 1: Brand & Overview */}
           <div className="md:col-span-2 space-y-4">
             <BrandLogo />
-            <p className="text-textSecondary text-sm max-w-sm leading-relaxed">
-              Project_EA brings property media, content preparation, social publishing, and
-              workflow management together in a streamlined workspace for real estate
-              professionals and property businesses.
+            <p className="text-textSecondary text-sm max-w-sm leading-relaxed mt-3">
+              BoltHaven brings property media processing, listing staging, official social publishing APIs, and agency workflow management together in a high-fidelity workspace.
             </p>
-            <div className="text-xs text-textSecondary pt-2">
-              <span className="font-medium text-textPrimary">Operating Region:</span>{' '}
-              {siteConfig.jurisdiction}
+            <div className="text-xs text-textSecondary pt-1 flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
+              <span className="font-semibold text-textPrimary">Operating Region:</span>{' '}
+              {siteConfig.jurisdiction} &bull; Headquartered in Bangkok
             </div>
           </div>
 
@@ -102,13 +101,11 @@ export const Footer: React.FC = () => {
 
         {/* Bottom Bar: Copyright & Platform Trademark Disclaimer */}
         <div className="pt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs text-textSecondary">
-          <p>
-            &copy; {currentYear} Project_EA. All rights reserved.
+          <p className="font-medium text-textPrimary">
+            &copy; {currentYear} BoltHaven Properties Co., Ltd. All rights reserved.
           </p>
           <p className="max-w-xl text-xs text-gray-500 leading-normal">
-            Project_EA is an independent software tool. TikTok, Instagram, and Facebook are
-            trademarks of their respective owners. API access and publishing features are subject
-            to third-party developer review and authorization.
+            BoltHaven Properties is an independent real estate software platform. TikTok, Instagram, and Facebook are trademarks of their respective owners. Content distribution is powered strictly via official third-party developer APIs.
           </p>
         </div>
       </div>

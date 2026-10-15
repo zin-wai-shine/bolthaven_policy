@@ -27,46 +27,50 @@ export const Home: React.FC = () => {
       />
 
       {/* Section 1 — Hero */}
-      <section className="pt-12 sm:pt-16 pb-16 sm:pb-24 border-b border-borderSubtle bg-white">
+      <section className="relative overflow-hidden pt-12 sm:pt-20 pb-20 sm:pb-28 border-b border-borderSubtle bg-gradient-to-b from-white via-[#FAFBFD] to-white">
+        {/* Subtle background ambient glows */}
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[350px] bg-gradient-to-r from-primary/10 via-amber-500/5 to-transparent blur-3xl pointer-events-none -z-10" />
+
         <Container>
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
             {/* Left Column: Headline and Actions */}
             <div className="lg:col-span-5 space-y-6">
-              <div className="inline-block text-[11px] font-semibold uppercase tracking-widest text-accent bg-accent-subtle px-2.5 py-1 rounded">
-                SOCIAL PUBLISHING PLATFORM
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-[11px] font-bold uppercase tracking-wider">
+                <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
+                Next-Gen Real Estate Publishing
               </div>
 
-              <h1 className="text-hero font-bold tracking-tight text-textPrimary text-balance">
-                One place to manage your property content.
+              <h1 className="text-hero font-extrabold tracking-tight text-textPrimary text-balance leading-[1.08]">
+                One unified studio to scale property content.
               </h1>
 
               <p className="text-base sm:text-lg text-textSecondary leading-relaxed">
-                Project_EA brings property media, content preparation, social publishing, and
-                workflow management together in a streamlined workspace.
+                <span className="font-semibold text-textPrimary">BoltHaven</span> automates multi-channel short-form tours, high-resolution media preparation, and authorized social publishing directly from your property portfolio.
               </p>
 
-              <div className="flex flex-wrap items-center gap-3 pt-2">
+              <div className="flex flex-wrap items-center gap-3.5 pt-2">
                 <Button
                   to="/features"
                   variant="primary"
                   size="lg"
+                  className="shadow-md shadow-primary/25 hover:shadow-lg hover:shadow-primary/35 transition-all"
                   icon={<FiArrowRight className="w-4 h-4" />}
                 >
-                  Explore Features
+                  Explore All Features
                 </Button>
-                <Button to="/how-it-works" variant="secondary" size="lg">
+                <Button to="/how-it-works" variant="secondary" size="lg" className="shadow-2xs">
                   How It Works
                 </Button>
               </div>
 
               {/* Functional trust notes */}
-              <div className="pt-4 border-t border-borderSubtle flex flex-wrap items-center gap-4 text-xs text-textSecondary">
-                <span className="flex items-center gap-1.5">
-                  <FiShield className="w-3.5 h-3.5 text-accent" />
+              <div className="pt-5 border-t border-borderSubtle flex flex-wrap items-center gap-5 text-xs text-textSecondary">
+                <span className="flex items-center gap-1.5 font-medium">
+                  <FiShield className="w-4 h-4 text-primary" />
                   Role-Scoped Credentials
                 </span>
-                <span className="flex items-center gap-1.5">
-                  <FiCheck className="w-3.5 h-3.5 text-emerald-600" />
+                <span className="flex items-center gap-1.5 font-medium">
+                  <FiCheck className="w-4 h-4 text-emerald-600" />
                   Direct Content Posting API Staging
                 </span>
               </div>
@@ -92,54 +96,54 @@ export const Home: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Feature 1 */}
-            <div className="bg-white border border-borderSubtle p-6 rounded-lg space-y-3 hover:border-gray-300 transition-colors">
-              <div className="w-10 h-10 rounded-md bg-bgSecondary border border-borderSubtle flex items-center justify-center text-textPrimary">
-                <FiFolder className="w-5 h-5 text-accent" />
+            <div className="group bg-white border border-borderSubtle p-6 rounded-xl space-y-4 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-1 transition-all duration-200">
+              <div className="w-12 h-12 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors duration-200">
+                <FiFolder className="w-6 h-6" />
               </div>
-              <h3 className="text-base font-semibold text-textPrimary">
-                Property Content Management
+              <h3 className="text-base font-bold text-textPrimary">
+                Property Media Vault
               </h3>
               <p className="text-xs sm:text-sm text-textSecondary leading-relaxed">
-                Organize property photos, descriptions, and publishing materials in clean listing folders.
+                Centralize floorplans, 4K video walk-throughs, and staging photos tagged by property ID and MLS parameters.
               </p>
             </div>
 
             {/* Feature 2 */}
-            <div className="bg-white border border-borderSubtle p-6 rounded-lg space-y-3 hover:border-gray-300 transition-colors">
-              <div className="w-10 h-10 rounded-md bg-bgSecondary border border-borderSubtle flex items-center justify-center text-textPrimary">
-                <FiShare2 className="w-5 h-5 text-accent" />
+            <div className="group bg-white border border-borderSubtle p-6 rounded-xl space-y-4 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-1 transition-all duration-200">
+              <div className="w-12 h-12 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors duration-200">
+                <FiShare2 className="w-6 h-6" />
               </div>
-              <h3 className="text-base font-semibold text-textPrimary">
-                Social Media Publishing
+              <h3 className="text-base font-bold text-textPrimary">
+                Direct Social Publishing
               </h3>
               <p className="text-xs sm:text-sm text-textSecondary leading-relaxed">
-                Prepare channel-specific posts and manage authorized publishing workflows across networks.
+                Dispatch verified short-form reels and posts directly to TikTok, Instagram, and Facebook using authorized APIs.
               </p>
             </div>
 
             {/* Feature 3 */}
-            <div className="bg-white border border-borderSubtle p-6 rounded-lg space-y-3 hover:border-gray-300 transition-colors">
-              <div className="w-10 h-10 rounded-md bg-bgSecondary border border-borderSubtle flex items-center justify-center text-textPrimary">
-                <FiCpu className="w-5 h-5 text-accent" />
+            <div className="group bg-white border border-borderSubtle p-6 rounded-xl space-y-4 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-1 transition-all duration-200">
+              <div className="w-12 h-12 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors duration-200">
+                <FiCpu className="w-6 h-6" />
               </div>
-              <h3 className="text-base font-semibold text-textPrimary">
-                Workflow Automation
+              <h3 className="text-base font-bold text-textPrimary">
+                Automated Transcoding
               </h3>
               <p className="text-xs sm:text-sm text-textSecondary leading-relaxed">
-                Create repeatable steps for processing media, watermarking, and drafting standardized listing copy.
+                Automatically crop to 9:16 vertical, burn agency branding, and enforce channel bitrate specifications seamlessly.
               </p>
             </div>
 
             {/* Feature 4 */}
-            <div className="bg-white border border-borderSubtle p-6 rounded-lg space-y-3 hover:border-gray-300 transition-colors">
-              <div className="w-10 h-10 rounded-md bg-bgSecondary border border-borderSubtle flex items-center justify-center text-textPrimary">
-                <FiActivity className="w-5 h-5 text-accent" />
+            <div className="group bg-white border border-borderSubtle p-6 rounded-xl space-y-4 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-1 transition-all duration-200">
+              <div className="w-12 h-12 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors duration-200">
+                <FiActivity className="w-6 h-6" />
               </div>
-              <h3 className="text-base font-semibold text-textPrimary">
-                Publishing Visibility
+              <h3 className="text-base font-bold text-textPrimary">
+                Compliance &amp; Audit Logs
               </h3>
               <p className="text-xs sm:text-sm text-textSecondary leading-relaxed">
-                Keep track of publishing tasks, scheduled dispatches, status codes, and verified posting logs.
+                Real-time dispatch confirmations, token lifecycle monitoring, and verified immutable posting records.
               </p>
             </div>
           </div>
@@ -196,68 +200,77 @@ export const Home: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* TikTok Channel Card */}
-            <div className="border border-borderSubtle rounded-lg p-6 bg-white space-y-4 hover:border-gray-300 transition-colors">
+            <div className="border border-borderSubtle rounded-2xl p-6 sm:p-7 bg-white space-y-5 hover:border-primary/50 hover:shadow-xl hover:shadow-primary/5 transition-all duration-200">
               <div className="flex items-center justify-between">
-                <div className="w-10 h-10 rounded-md bg-[#111318] text-white flex items-center justify-center">
-                  <FaTiktok className="w-5 h-5" />
+                <div className="w-12 h-12 rounded-xl bg-[#111318] text-white flex items-center justify-center shadow-sm">
+                  <FaTiktok className="w-6 h-6" />
                 </div>
-                <span className="text-[11px] font-mono font-medium px-2 py-0.5 rounded bg-amber-50 text-amber-800 border border-amber-200">
+                <span className="text-[11px] font-mono font-bold px-2.5 py-1 rounded-full bg-amber-500/10 text-amber-700 border border-amber-500/20">
                   Developer Review Mode
                 </span>
               </div>
               <div>
-                <h3 className="font-semibold text-base text-textPrimary">TikTok</h3>
+                <h3 className="font-bold text-lg text-textPrimary">TikTok Content Posting API</h3>
                 <p className="text-xs sm:text-sm text-textSecondary mt-2 leading-relaxed">
-                  Direct short-form video publishing via official TikTok Content Posting API. Supports 9:16 vertical walk-throughs, custom hashtags, and scheduling.
+                  Direct short-form video publishing. Automate 9:16 vertical walk-throughs, scheduled uploads, and agency hashtag distributions with OAuth 2.0 creator authorization.
                 </p>
               </div>
-              <div className="pt-3 border-t border-borderSubtle text-xs text-textSecondary space-y-1">
-                <div>&bull; Scope: Video Upload & Creator Info</div>
-                <div>&bull; Status: In API Developer Review</div>
+              <div className="pt-4 border-t border-borderSubtle text-xs text-textSecondary space-y-1.5 font-mono">
+                <div className="flex items-center gap-1.5 text-textPrimary">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                  Scope: video.upload, user.info.basic
+                </div>
+                <div className="text-textSecondary">&bull; In API Developer Review &amp; Staging</div>
               </div>
             </div>
 
             {/* Instagram Channel Card */}
-            <div className="border border-borderSubtle rounded-lg p-6 bg-white space-y-4 hover:border-gray-300 transition-colors">
+            <div className="border border-borderSubtle rounded-2xl p-6 sm:p-7 bg-white space-y-5 hover:border-pink-300 hover:shadow-xl hover:shadow-pink-500/5 transition-all duration-200">
               <div className="flex items-center justify-between">
-                <div className="w-10 h-10 rounded-md bg-pink-50 border border-pink-100 text-[#E1306C] flex items-center justify-center">
-                  <FaInstagram className="w-5 h-5" />
+                <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-[#FD1D1D] via-[#E1306C] to-[#833AB4] text-white flex items-center justify-center shadow-sm">
+                  <FaInstagram className="w-6 h-6" />
                 </div>
-                <span className="text-[11px] font-mono font-medium px-2 py-0.5 rounded bg-gray-100 text-gray-700">
+                <span className="text-[11px] font-mono font-bold px-2.5 py-1 rounded-full bg-gray-100 text-gray-700">
                   Planned Staging
                 </span>
               </div>
               <div>
-                <h3 className="font-semibold text-base text-textPrimary">Instagram</h3>
+                <h3 className="font-bold text-lg text-textPrimary">Instagram Graph API</h3>
                 <p className="text-xs sm:text-sm text-textSecondary mt-2 leading-relaxed">
-                  Prepare square and 4:5 property carousels, photo galleries, and Reels with custom property parameter bindings and agency watermarks.
+                  Format square and 4:5 property carousels, photo galleries, and Reels with custom property parameter overlays and agency watermarks.
                 </p>
               </div>
-              <div className="pt-3 border-t border-borderSubtle text-xs text-textSecondary space-y-1">
-                <div>&bull; Scope: Graph API Instagram Publishing</div>
-                <div>&bull; Status: Integration Roadmap</div>
+              <div className="pt-4 border-t border-borderSubtle text-xs text-textSecondary space-y-1.5 font-mono">
+                <div className="flex items-center gap-1.5 text-textPrimary">
+                  <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                  Scope: instagram_content_publish
+                </div>
+                <div className="text-textSecondary">&bull; Integration Roadmap Milestone</div>
               </div>
             </div>
 
             {/* Facebook Pages Channel Card */}
-            <div className="border border-borderSubtle rounded-lg p-6 bg-white space-y-4 hover:border-gray-300 transition-colors">
+            <div className="border border-borderSubtle rounded-2xl p-6 sm:p-7 bg-white space-y-5 hover:border-blue-300 hover:shadow-xl hover:shadow-blue-500/5 transition-all duration-200">
               <div className="flex items-center justify-between">
-                <div className="w-10 h-10 rounded-md bg-blue-50 border border-blue-100 text-[#1877F2] flex items-center justify-center">
-                  <FaFacebook className="w-5 h-5" />
+                <div className="w-12 h-12 rounded-xl bg-[#1877F2] text-white flex items-center justify-center shadow-sm">
+                  <FaFacebook className="w-6 h-6" />
                 </div>
-                <span className="text-[11px] font-mono font-medium px-2 py-0.5 rounded bg-gray-100 text-gray-700">
+                <span className="text-[11px] font-mono font-bold px-2.5 py-1 rounded-full bg-gray-100 text-gray-700">
                   Planned Staging
                 </span>
               </div>
               <div>
-                <h3 className="font-semibold text-base text-textPrimary">Facebook Pages</h3>
+                <h3 className="font-bold text-lg text-textPrimary">Facebook Pages API</h3>
                 <p className="text-xs sm:text-sm text-textSecondary mt-2 leading-relaxed">
-                  Broadcast new agency listings, open house dates, and price reductions directly to verified agency business pages and team profiles.
+                  Broadcast new agency listings, open house schedules, and price updates directly to verified agency business pages and team profiles.
                 </p>
               </div>
-              <div className="pt-3 border-t border-borderSubtle text-xs text-textSecondary space-y-1">
-                <div>&bull; Scope: Facebook Pages API</div>
-                <div>&bull; Status: Integration Roadmap</div>
+              <div className="pt-4 border-t border-borderSubtle text-xs text-textSecondary space-y-1.5 font-mono">
+                <div className="flex items-center gap-1.5 text-textPrimary">
+                  <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                  Scope: pages_manage_posts
+                </div>
+                <div className="text-textSecondary">&bull; Integration Roadmap Milestone</div>
               </div>
             </div>
           </div>
@@ -271,26 +284,37 @@ export const Home: React.FC = () => {
       </section>
 
       {/* Section 6 — Closing CTA */}
-      <section className="py-16 sm:py-24 bg-bgSecondary">
+      <section className="py-20 sm:py-28 bg-[#0D0F14] text-white relative overflow-hidden">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[350px] bg-primary/20 blur-[120px] pointer-events-none rounded-full" />
         <Container size="narrow">
-          <div className="text-center space-y-6">
-            <h2 className="text-section-title font-semibold text-textPrimary">
-              A simpler way to manage property publishing.
+          <div className="text-center space-y-6 relative z-10">
+            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-primary border border-primary/30 text-xs font-mono font-semibold">
+              <span className="w-2 h-2 rounded-full bg-primary animate-ping" />
+              API Ready Production Platform
+            </span>
+            <h2 className="text-section-title font-extrabold text-white tracking-tight text-balance">
+              Streamline your real estate publishing operations today.
             </h2>
-            <p className="text-base sm:text-lg text-textSecondary leading-relaxed">
-              Discover how Project_EA organizes media, content, and publishing workflows into one structured experience.
+            <p className="text-base sm:text-lg text-gray-400 max-w-xl mx-auto leading-relaxed">
+              Experience the end-to-end publishing workflow engineered specifically for real estate developers, agencies, and asset managers.
             </p>
-            <div className="pt-2 flex justify-center gap-3">
+            <div className="pt-4 flex flex-wrap justify-center gap-4">
               <Button
                 to="/features"
                 variant="primary"
                 size="lg"
+                className="shadow-lg shadow-primary/30 hover:shadow-xl hover:shadow-primary/40 font-semibold"
                 icon={<FiArrowRight className="w-4 h-4" />}
               >
-                Explore Features
+                Explore Platform Features
               </Button>
-              <Button to="/contact" variant="secondary" size="lg">
-                Contact Our Team
+              <Button
+                to="/contact"
+                variant="secondary"
+                size="lg"
+                className="bg-white/10 text-white border-white/20 hover:bg-white/20 font-semibold backdrop-blur-sm"
+              >
+                Schedule Team Demo
               </Button>
             </div>
           </div>
